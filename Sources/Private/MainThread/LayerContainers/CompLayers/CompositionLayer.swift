@@ -168,7 +168,7 @@ class CompositionLayer: CALayer, KeypathSearchable {
   }
 
   func updateRenderScale() {
-    contentsScale = renderScale
+    //contentsScale = renderScale
   }
 }
 

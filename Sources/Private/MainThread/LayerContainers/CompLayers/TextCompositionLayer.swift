@@ -173,8 +173,8 @@ final class TextCompositionLayer: CompositionLayer {
     textLayer.transform = matrix
   }
 
-  override func updateRenderScale() {
-    super.updateRenderScale()
-    textLayer.contentsScale = renderScale
-  }
+//  override func updateRenderScale() {
+//    super.updateRenderScale()
+//    textLayer.contentsScale = renderScale
+//  }
 }
